@@ -1,8 +1,5 @@
 class demo {
     public static void main(string []args) {
-        for(i=0; i<=4; i++ ) {
-            for(j=0; j<=5; j++) {
-                system.out.print("*")
-            }  System.out.println();          
-        }            }
+        System.out.println("sanu");
+    }
 }
