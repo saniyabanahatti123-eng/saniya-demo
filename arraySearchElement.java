@@ -10,7 +10,7 @@ for (int i = 0; i<size; i++) {
     number[i]= sc. nextInt();
 }
 int x = sc.nextInt();
-for (int i=0; i<number.length; i++) {
+for (int i=0; i<size; i++) {
      if (number[i]==x) {
         System.out.println("x Found at index i=" +i);
      }
