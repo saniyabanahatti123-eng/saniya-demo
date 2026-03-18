@@ -7,11 +7,13 @@ public class Stringprogram {
       String var1 = "sanu";
       String var2 = "banu";
       String var3 = var1 + " " + var2;
+      System.out.println(var3);
       System.out.println(var3.length());
-
-      for(int var4 = 0; var4 < var3.length(); ++var4) {
-         System.out.println(var3.charAt(var4));
+      for ( int i=0; i<var3.length(); i++) {
+         System.out.println(var3.charAt(i));
+      
       }
+   }
 
    }
-}
+
