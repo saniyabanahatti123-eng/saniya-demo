@@ -1,22 +1,13 @@
 // Source code is decompiled from a .class file using FernFlower decompiler (from Inte
 import java.util.*;
-public class Stringreplace {
+public class Stringemail {
     public static void main(String args[]) {
-Scanner sc = new Scanner(System.in);
-String email = sc.next();
-String username = " ";
-for (int i = 0; i < email.length(); i++) {
-    if (email.charAt(i)=='@') {
-        break;
-    }
-    else {
-        username += email.charAt(i);
+        StringBuilder sb = new StringBuilder("tony");
+        System.out.println(sb);
+        System.out.println(sb.charAt(0));
     }
 }
-System.out.println(username);
-    }
-    
-}
+
 
 
 
