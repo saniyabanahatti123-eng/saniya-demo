@@ -1,13 +1,6 @@
 class pen {
-    //properties
-    String colour;
-    String type;
-    public void write() {
-        System.out.println("writing something");
-    }
-    public void PrintColour() {
-        System.out.println(this.colour);
-    }
+    
+  public void 
 }
 class student {
     String name;
@@ -17,17 +10,8 @@ class student {
 public class oops {
     public static void main(String[] args) {
         //object creation
-        pen s = new pen(); 
-        s.colour="blue";
-        s.type="gel";
-        s.write(); //Function call
-//object to access this keyword
-       pen pen1 = new pen();
-       pen1.colour="black";
-       pen1.type="ballpoint";
-       pen1.PrintColour(); //Function call
-       s.PrintColour();
+       student s1=new student();
+       s1.age=20;
+       s1.name="saniya";
     }
-
 }
-
