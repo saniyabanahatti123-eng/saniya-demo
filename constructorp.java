@@ -2,18 +2,18 @@
     //properties
     int age;
         String name;
-    public void printAbout(){ //Function 
-        
-        System.out.println(this.age);
-        System.out.println(this.name);
-        
-    }
-  constructorp(int age ,String name) { // parameterized constructor
-    this.age=age;
-    this.name=name;
+    
+  public static void printAbout(String name){
+System.out.println(name);
+  }
+  public static void printAbout(int age) {
+    System.out.println(age);
   }
     public static void main(String[] args) {
-        constructorp a= new constructorp(20,"sanu");//constructor call pass the argument
-        a.printAbout();
+        constructorp s1=new constructorp();
+        s1.age=20;
+        s1.name="sanu";
+       printAbout(s1.age);
+       printAbout(s1.name);
     }
 }
